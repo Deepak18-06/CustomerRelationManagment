@@ -32,8 +32,6 @@ def registerPage(request):
 			return redirect('login')
 		
 
-		
-
 	context = {'form':form}
 	return render(request, 'accounts/register.html', context)
 
